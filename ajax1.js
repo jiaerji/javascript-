@@ -42,4 +42,4 @@ var ajax = function(url, method = "GET", data = {}, async = true, success, error
 }
 
 
-ajax("http://47.106.89.121/get_atom/h/","GET","",true,function(res){console.log(res);},function(error){console.log(error);},'json');
+ajax("","GET","",true,function(res){console.log(res);},function(error){console.log(error);},'json');
