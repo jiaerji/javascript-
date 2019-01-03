@@ -76,8 +76,8 @@ ajax({
         key:123,
     },
     data:{
-        name: "yhtx",
-        id: "1997"
+        name: "123",
+        id: "123"
     },
     success(res){
         console.log(res);
