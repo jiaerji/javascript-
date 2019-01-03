@@ -13,6 +13,7 @@ var ajax = ({ url, method = "GET", data = {}, async = true, success, error, resT
 
     //初始化data 
     switch (method) {
+            
         case 'POST':
             for (let key in data) {
                 formData.append(`${key}`, `${headers[key]}`);//将data转换成 FormData 对象的字段 
