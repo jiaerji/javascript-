@@ -66,7 +66,7 @@ var ajax = ({ url, method = "GET", data = {}, async = true, success, error, resT
 
 
 ajax({
-    url:'http://47.106.89.121/get_atom/h/',
+    url:'',
     method:'post',
     resType:'json',
     headers:{
