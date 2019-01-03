@@ -24,7 +24,7 @@ var ajax = function(url, method = "GET", data = {}, async = true, success, error
     //xhr.setRequestHeader("Content-type", "application/x-www-form-urlencodded");
     //设置返回数据格式
     if(async){//如果设置了同步就不能设置返回数据格式
-        xhr.responseType = resType; //在未设置responseType的时候默认为Text
+        xhr.responseType = resType; //设置返回响应数据的类型，在未设置responseType的时候默认为Text
     }
     //send(data) 将请求发送到服务器data仅用于post
     xhr.send(data);
