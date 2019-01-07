@@ -2,6 +2,7 @@ var s;
 var scl = 20;
 var food;
 
+// 程序开始时，setup() 函数中的语句执行一次。
 function setup() {//p5.js的初始方法
   createCanvas(600, 600);
   s = new Snake();
@@ -18,6 +19,7 @@ function pickLocation() {
 }
 
 
+// draw() 中的语句一直执行到程序停止为止。每个语句都按顺序执行，并且在读取最后一行之后，将再次执行第一行。
 function draw() {//p5.js图形绘制
   background(51);
 
